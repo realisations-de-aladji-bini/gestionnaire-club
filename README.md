@@ -1,12 +1,12 @@
-Ce projet réalisé en Java avec Oracle pour la gestion des données permet de gérer les services proposés par un club de montagne à ses adhérents et au grand public. Son fonction est le suivant : 
+Ce projet réalisé en Java avec Oracle, pour la gestion des données, permet de gérer les services proposés par un club de montagne à ses adhérents et au grand public. Son fonctionnement est le suivant : 
 - L'ensemble des utilisateurs inscrits sur ce système ont la possibilité de faire des réservations de repas/nuits dans les refuges gérés par le club
 - Seuls les adhérents du club ont la possibilité de s'inscrire à des formations et de réserver du matériel pour leurs sorties en montagne
 
 ## Configuration requise
-Comme spécifier plus haut, ce projet est réalisé avec Oracle. Il vous faut donc :
+Comme spécifié plus haut, ce projet est réalisé avec Oracle. Il vous faut donc :
 - Installer Oracle 11g sur votre système
-- Créer une base de données et la peupler en exécutant respectivement les contenus des fichiers tables.sql et insertion.sql situé dans le répertoire src/database.
-- Éditer les 3 premières lignes de la classe JDBC pour connecter à la bd créée
+- Créer une base de données et la peupler en exécutant respectivement les fichiers tables.sql et insertion.sql situé dans le répertoire src/database.
+- Éditer les 3 premières lignes de la classe JDBC pour établir la connexion à la bd créée
 - Pour exécuter le démonstrateur, il suffit d’entrer la commande **make** dans le répertoire racine du
 projet.
 
